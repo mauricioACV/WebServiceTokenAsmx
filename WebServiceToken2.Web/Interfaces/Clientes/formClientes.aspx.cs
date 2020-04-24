@@ -12,7 +12,7 @@ namespace WebServiceToken2.Web.Interfaces.Clientes
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            gvwDatos.RowStyle.HorizontalAlign = HorizontalAlign.Center;
         }
 
         protected void btnConsultar_Click(object sender, EventArgs e)

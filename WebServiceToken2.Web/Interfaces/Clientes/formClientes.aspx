@@ -24,7 +24,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <asp:GridView ID="gvwDatos" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateColumns="false" EmptyDataText="No se encontraron registros..." Width="100%">
+                    <asp:GridView ID="gvwDatos" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateColumns="false" EmptyDataText="No se encontraron registros..." HorizontalAlign="Center" Width="100%">
                         <Columns>
                             <asp:BoundField DataField="Id" HeaderText="Id Usuario" />
                             <asp:BoundField DataField="Nombre" HeaderText="Nombre Usuario" />
